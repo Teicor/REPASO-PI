@@ -5,8 +5,8 @@ export default function NavBar(){
     return(
         <>
             <div className="main-container">
-                <a>HOME</a>
-                <a>CREAR PERSONAJE</a>
+                <a href="/">HOME</a>
+                <a href="/crear-personaje">CREAR PERSONAJE</a>
             </div>
         </>
     )

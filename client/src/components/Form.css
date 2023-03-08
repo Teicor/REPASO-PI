@@ -1,0 +1,13 @@
+.main-container{
+    width: 400px;
+    height: 500px;
+    background-color: grey;
+    margin: 0 auto ;
+}
+
+.form-container{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(5, 40px);
+    font-size: 25px;
+}
